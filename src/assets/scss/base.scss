@@ -1,0 +1,8 @@
+@import "./_variables";
+@import "./_navigation";
+
+html body {
+  font-weight: 500;
+  margin: 0;
+  background-color: $background;
+}
