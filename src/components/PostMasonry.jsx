@@ -9,7 +9,7 @@ const PostMasonry = ({ posts, columns, tagsOnTop }) => {
       }}
     >
       {posts.map((post, index) => (
-        <MasonryPost {...{ post, index, tagsOnTop, key: index }}></MasonryPost>
+        <MasonryPost {...{ post, index, tagsOnTop, key: index }} />
       ))}
     </section>
   );
